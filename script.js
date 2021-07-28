@@ -9,7 +9,6 @@ window.addEventListener('load', function(){
             for (prop in json) {
                 let newDiv = document.createElement('div');
                 let colorSwitch = (json[prop].active === true) ? 'green' : 'red';
-                let counter = 0;
                 newDiv.classList.add('astronaut'); 
                 newDiv.innerHTML = `
                         <div class = 'bio'>
